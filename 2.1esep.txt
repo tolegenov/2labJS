@@ -1,0 +1,22 @@
+<script>
+
+var arr=[];
+
+var m;
+
+for(var i=0;i<6;i++){
+
+arr[i]=+prompt("Enter number",0)||0;
+
+if(m === void 0 || arr[i]>m){
+
+m=arr[i];
+
+}
+
+}
+
+document.write(arr + " max = > " +m);
+
+ 
+</script>
