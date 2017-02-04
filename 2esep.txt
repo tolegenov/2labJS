@@ -1,0 +1,31 @@
+<html>
+<head>
+<title>Maximum</title>
+<body>
+<script language="Javascript">
+
+var arr=[1,2,3,4,5,6];
+
+var m=arr[0];
+
+for(var i=0;i<5;i++){
+
+arr[i]=prompt("Enter an array");
+
+if(arr[i]>m){
+
+m=arr[i];
+
+}
+
+}
+
+ 
+document.write(m);
+
+
+
+
+</script>
+</body>
+</html>
