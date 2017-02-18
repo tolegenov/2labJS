@@ -1,0 +1,18 @@
+<html>
+<head>
+<title>del/title>
+<body>
+
+<script language="Javascript">
+ var a = [1,2,3,4,5,6];
+var x = 4;
+for (var i = 0; i<a.length; i++){
+    if(a[i] === x) {
+	a.splice(i, 1);
+    }
+}
+console.log(a);
+
+</script>
+</body>
+</html>
